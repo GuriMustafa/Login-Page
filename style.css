@@ -1,0 +1,212 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #cbccce;
+}
+.bunny{
+    position: relative;
+    top: 80px;
+    left: 380px;
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.ear{
+    position: absolute;   /* The element stays in its normal place */
+    width: 40px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(220, 218, 218);
+    border-radius: 50%;
+    top: -55px;
+    
+}
+.ear.left {
+    left: 10px;
+    transform: rotate(-25deg);
+}
+
+.ear.right {
+    right: 20px;
+    transform: rotate(-25deg); /* Applies a counterclockwise rotation */
+}
+.inner-ear {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    background-color: #f3b2bf;
+    border-radius: 50%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Useful for centering elements horizontally */
+}
+.head {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    top: 120px;
+    left: 470px;
+    transform: translateX(-50%);
+}
+
+.eye {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(209, 174, 180);
+    border: 1px solid #a6a9ad;
+    border-radius: 50%;
+    top: 25px;
+}
+.eye.left {
+    left: 25px;
+}
+.eye.right {
+    right: 25px;
+}
+.nose {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    border-radius: 50%;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hair{
+    position: absolute;
+    background-color:  rgb(209, 174, 180);
+    width: 50px;
+    top: 60px;
+    left: 75px;
+    border: 1px solid rgb(209, 174, 180);
+    transform: rotate(-5deg);
+}
+.right2{
+    margin-top: 10px;
+    transform: rotate(5deg);
+}
+.left1{
+    margin-left: -100px;
+    margin-top: px;
+    transform: rotate(5deg);
+}
+.left2{
+    margin-left: -100px;
+    margin-top: 10px;
+    transform: rotate(-5deg);
+}
+.mouth1{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    border-bottom: 3px solid  rgb(209, 174, 180);
+    top: 65px;
+    left: 60%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.mouth2{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    border-bottom: 3px solid rgb(209, 174, 180);
+    top: 65px;
+    left: 43%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+
+
+.container {
+    text-align: center;
+    margin: 1em auto; 
+    background-color: rgb(240, 240, 240); 
+    padding: 2em;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px  #aabdc8; 
+    max-width: 600px;
+    width: 80%; 
+}
+.header-one{
+    color: rgb(154, 152, 152);
+    font-size: 30px;
+}
+.header-three{
+    color:#989a9d;
+    font-size: 13px;
+    
+}
+
+ul {
+    list-style: none; 
+    display: flex;
+    margin-left: 11em;
+    gap: 22px;
+    
+}
+
+li {
+    border: 1px solid rgb(215, 204, 204);
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; 
+    box-shadow: 0px 2px 5px #aabdc8;
+}
+li:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer;
+}
+a {
+    color: rgb(188, 182, 182);
+}
+#facebook:hover{
+    color: #1877F2;;  
+}
+#twitter:hover{
+    color:  #1DA1F2;
+
+}
+#instagram:hover{
+    color: #E1306C;
+   
+}
+input {
+    border: 1px solid rgb(187, 182, 182);
+    border-radius: 20px;
+    max-width: 900px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px; 
+    box-shadow: 0px 2px 5px gray;
+    font-size: 13px;
+}
+
+span{
+    color: gray;
+}
+button{
+    color: #71757b;
+    border: 2px solid rgb(204, 202, 202);
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/*dark mode*/
